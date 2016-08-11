@@ -1,0 +1,60 @@
+
+nav{
+	height:50px;
+	width:100%;
+	padding:20px;
+	background-color: lightgray;
+	
+	
+}
+
+nav h1 {
+	display: inline-block;
+}
+nav ul  {
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-right: 30px;
+    font-size:25px;
+}
+
+.nav a:link {
+	color: purple;
+}
+
+.text-right {
+	text-align: right;
+}
+
+main {
+	padding-left: 50px;
+}
+
+input[type=search] {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 25px;
+  min-width: 50%;
+  margin-top:50px;
+  margin-bottom: 50px;
+  margin-right: 2px;
+
+}
+
+.thin-border {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+div.next {
+	display: inline-block;
+}
+
+
+
