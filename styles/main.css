@@ -101,6 +101,11 @@ ul.result-list  {
 	color: purple;
 }
 
+.fa-search {
+  font-size: 25px;   /* size should match size of input */
+  padding: 2px 4px 4px 4px;
+}
+
 .star:hover {
 	color:yellow;
 }
