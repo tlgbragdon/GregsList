@@ -5,6 +5,19 @@ body {
 	font-size: 20px;
 }
 
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+.nav-link {
+	color:purple;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 nav{
 	height:40px;
 	width:100%;
@@ -33,9 +46,6 @@ nav ul li {
     font-size:30px;
 }
 
-.nav a:link {
-	color: purple;
-}
 
 .text-right {
 	text-align: right;
@@ -67,7 +77,7 @@ input[type=search] {
 	display: inline-block;
 	padding:5px 25px;
 	margin-bottom: 20px;
-	text-decoration: none;
+	color: black;
 }
 
 
@@ -78,10 +88,21 @@ ul.result-list  {
 	
 }
 
-.result-list div,a {
-	display: inline-block;
-	text-decoration: none;
+result-list a{
+	color: blue;
 }
+
+.result-list > li {
+	margin-top: 1em;
+}
+
+
+.result-list div {
+	display: inline-block;
+	color: gray;
+}
+
+
 
 .small-left-margin {
 	margin-left:5px;
@@ -93,6 +114,15 @@ ul.result-list  {
 
 .purple {
 	color: purple;
+}
+
+.fa-search {
+  font-size: 25px;   /* size should match size of input */
+  padding: 2px 4px 4px 4px;
+}
+
+.star {
+	color:lightgray;
 }
 
 .star:hover {
