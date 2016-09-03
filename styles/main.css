@@ -86,6 +86,10 @@ ul.result-list  {
 	
 }
 
+.result-list > li {
+	margin-top: 1em;
+}
+
 
 .result-list div {
 	display: inline-block;
