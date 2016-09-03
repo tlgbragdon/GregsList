@@ -106,6 +106,10 @@ ul.result-list  {
   padding: 2px 4px 4px 4px;
 }
 
+.star {
+	color:lightgray;
+}
+
 .star:hover {
 	color:yellow;
 }
