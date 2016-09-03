@@ -6,6 +6,7 @@ body {
 }
 
 a {
+	color:purple;
 	text-decoration: none;
 }
 
@@ -85,8 +86,10 @@ ul.result-list  {
 	
 }
 
-.result-list div,a {
+
+.result-list div {
 	display: inline-block;
+	color: gray;
 }
 
 .small-left-margin {
