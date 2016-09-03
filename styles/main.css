@@ -5,6 +5,14 @@ body {
 	font-size: 20px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 nav{
 	height:40px;
 	width:100%;
@@ -67,7 +75,6 @@ input[type=search] {
 	display: inline-block;
 	padding:5px 25px;
 	margin-bottom: 20px;
-	text-decoration: none;
 }
 
 
@@ -80,7 +87,6 @@ ul.result-list  {
 
 .result-list div,a {
 	display: inline-block;
-	text-decoration: none;
 }
 
 .small-left-margin {
