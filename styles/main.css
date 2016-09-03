@@ -6,27 +6,31 @@ body {
 }
 
 nav{
-	height:50px;
+	height:40px;
 	width:100%;
-	padding:20px;
+	padding:25px;
 	background-color: lightgray;
-	
+	position: fixed;
 	
 }
 
 nav h1 {
 	display: inline-block;
+	margin-top: 0;
 }
+
 nav ul  {
 	list-style: none;
 	display: inline-block;
 	float: right;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 nav ul li {
 	display: inline-block;
 	padding-right: 30px;
-    font-size:25px;
+    font-size:30px;
 }
 
 .nav a:link {
@@ -39,35 +43,44 @@ nav ul li {
 
 main {
 	padding-left: 50px;
+	position: absolute;
+	top: 100px;
 }
 
 input[type=search] {
   border: 1px solid lightgray;
   border-radius: 5px;
   font-size: 25px;
-  min-width: 50%;
+  min-width: 67%;
   margin-top:50px;
   margin-bottom: 50px;
   margin-right: 2px;
-
+  padding-left: 10px;
 }
 
 .thin-border {
 	border: 1px solid lightgray;
 	border-radius: 5px;
-	padding: 5px;
 }
 
-div.next {
+.results-nav {
 	display: inline-block;
+	padding:5px 25px;
+	margin-bottom: 20px;
+	text-decoration: none;
 }
 
-.result div {
-	display: inline-block;
-}
-.result ul  {
+
+ul.result-list  {
 	list-style: none;
 	display: inline-block;
+	padding-left:0;
+	
+}
+
+.result-list div,a {
+	display: inline-block;
+	text-decoration: none;
 }
 
 .small-left-margin {
@@ -82,14 +95,10 @@ div.next {
 	color: purple;
 }
 
-.blue {
-	color: blue;
-}
-
-.star a:visited {
+.star:hover {
 	color:yellow;
 }
 
 .date {
-	width:150px;
+	width:100px;
 }
